@@ -2,7 +2,7 @@
  * Created by jeremywagemans on 09/02/15.
  */
 
-// TODO - implementing AngularJS
+// TODO - implement AngularJS
 
 $(document).ready(function() {
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     });
 
-    // Listen updates on main input. Display selection made by css selector in preview view
+    // Listen updates on main input. Display selection made by a css selector in preview view
     $( "#selector-input" ).bind( "input propertychange", function() {
 
         var selector = $(this).val();
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
     });
 
-    // TODO: Adding colors to editor
+    // TODO: Add colors to editor
 
     // Listen updates on editor's textarea
     $( "#code-editor" ).bind( "input propertychange", function() {
